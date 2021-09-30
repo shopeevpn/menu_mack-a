@@ -1,4 +1,5 @@
 #!/bin/bash
+# Update by RARE
 Font_Red="\033[31m";
 Font_Green="\033[32m";
 Font_Yellow="\033[33m";
