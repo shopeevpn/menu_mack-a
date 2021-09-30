@@ -27,7 +27,8 @@ apt install jq bc netfilter-persistent -y
 apt-get --reinstall --fix-missing install -y neofetch
 echo "clear" >> .profile
 echo "neofetch --ascii_distro SliTaz" >> .profile
-echo "echo -e '\e[35m Credit to mack-a \e[0m'" >> .profilee
+echo "echo ''" >> .profile
+echo "echo -e '\e[35m Credit to mack-a : https://github.com/mack-a \e[0m'" >> .profile
 echo "echo ''" >> .profile
 echo "echo -e '\e[35m  Type\e[5m \e[32mmenu\e[0m \e[35mUntuk Melihat Menu V2ray anda \e[0m'" >> .profile
 echo "echo ''" >> .profile
