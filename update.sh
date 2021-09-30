@@ -54,4 +54,4 @@ echo -e ""
 echo -e ""
 echo -e "         MENU UPDATE SELESAI"
 echo -e ""
-rm /root/upate.sh
+rm /root/update.sh
