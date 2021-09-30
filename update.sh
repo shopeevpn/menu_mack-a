@@ -26,6 +26,7 @@ apt install -y net-tools vnstat unzip curl screen
 apt install jq bc netfilter-persistent -y
 apt-get --reinstall --fix-missing install -y neofetch
 echo "clear" >> .profile
+echo "clear" >> .profile
 echo "neofetch --ascii_distro SliTaz" >> .profile
 echo "echo ''" >> .profile
 echo "echo -e '\e[35m Credit to mack-a : https://github.com/mack-a \e[0m'" >> .profile
