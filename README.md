@@ -44,7 +44,12 @@ You can click the Preview link to take a look at your changes.
 # 1st install v2ray-agent
 
 > [v2ray-agent English version](https://github.com/mack-a/v2ray-agent/blob/master/documents/en/README_EN.md)
-> 
+>
+
+```
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/shell/install_en.sh" && chmod 700 /root/install_en.sh && mv /root/install_en.sh /root/install.sh && /root/install.sh
+```
+# Lepas tu baru install update menu bawah ni
 Install Update
 ```
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/shopeevpn/menu_mack-a/main/update.sh" && chmod +x /root/update.sh && "/root/update.sh"
